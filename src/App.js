@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import logo from './logo.svg';
+import HomePage from './Containers/HomePage';
 import './App.css';
 
 function Message(props) {
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <Route path='/page' component={() => <Message text={"Hello another world"} />} />
-        <Route exact path='/' component={ () => <Message text={"Hello world"} />} />
+        <Route exact path='/' component={ () => <HomePage />} />
       </Router>
     </div>
   );
