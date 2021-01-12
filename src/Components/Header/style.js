@@ -9,6 +9,7 @@ export const HeaderSection = styled.div`
     position: sticky;
     display: flex;
     border-bottom: 1px solid lightgray;
+    background-color: #fdf5e69e;
 `;
 
 export const Tab = styled.div`
