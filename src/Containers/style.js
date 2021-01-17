@@ -94,7 +94,24 @@ export const AboutMeSection = styled.div`
         min-width: 450px;
         max-width: 70%;
     }
-    
+
+    .flex{
+        display: flex;
+    }
+
+    .tweet-box{
+
+    }
+
+    .tweet-picture{
+        flex: 1;
+        background-color: brown;
+    }
+
+    .information-container{
+        flex: 4;
+        padding: 5px 10px;
+    }
 `;
 
 export const MyExperienceSection = styled.div`

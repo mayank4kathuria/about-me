@@ -20,10 +20,15 @@ const LandingPage = (props) => {
             </MainSection> */}
             <AboutMeSection className={'intro-div'}>
                 <div className='feed-container'>
-                    <div className='tweet-box'>
+                    <div className='tweet-box flex'>
                         <div className='tweet-picture'></div>
                         <div className='information-container'>
                             <div>
+                                <div className='tweet-account-info'>
+                                    <a href='https://twitter.com/mayank2coolz' className='name' target='_blank' >Mayank Kathuria</a>
+                                    <span className='u-name'>@mayank2coolz</span>
+                                    <span className='date'>Oct 2, 20</span>
+                                </div>
                                 <span>About me section</span>
                                 <span>{"I <3 "}</span>
                             </div>
