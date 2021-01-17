@@ -81,7 +81,20 @@ export const MainSection = styled.div`
 
 
 export const AboutMeSection = styled.div`
+    background-color: #15202b;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    .feed-container{
+        height: 100%;
+        min-width: 450px;
+        max-width: 70%;
+    }
+    
 `;
 
 export const MyExperienceSection = styled.div`
