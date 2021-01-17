@@ -8,11 +8,13 @@ const LandingPage = (props) => {
         <Wrapper className='container'>
             <GlobalHeader />
             <MainSection className={'intro-div'} >
-                <div className='display-picture' style={{ backgroundImage: `url(${profilePicture})` }} ></div>
+                <div className='flex centered dp-section'>
+                    <div className='display-picture' style={{ backgroundImage: `url(${profilePicture})` }} ></div>
+                </div>
                 <div className='centered flex text-section'>
                     <div className='intro-text'>
-                        <p className='font-32'>Hi I'm Mayank</p>
-                        <p className='font-24' >{"I <3 "}</p>
+                        <p className='font-32'>Hi I'm Mayank Kathuria</p>
+                        <p className='font-24 description-line' >{"I <3 Creating Stuff"}</p>
                     </div>
                 </div>
                 {/* <img src={profilePicture} /> */}

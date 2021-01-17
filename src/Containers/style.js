@@ -19,10 +19,18 @@ export const MainSection = styled.div`
     }
 
     .display-picture{
-        flex: 1;
+        // flex: 1;
+        width: 75%;
+        height: 75%;
         border-radius: 50%;
         background-repeat: no-repeat;
         background-size: cover;
+        box-shadow: -2px 0px 3px 0px #ffffff;
+
+        // &:hover {
+        //     width: 75%;
+        //     height: 75%;
+        // }
     }
 
     .text-section{
@@ -59,6 +67,15 @@ export const MainSection = styled.div`
 
     .font-24{
         font-size: 24px;
+        font-weight: 400;
+    }
+
+    .description-line{
+
+    }
+
+    .dp-section{
+        flex: 1;
     }
 `;
 
