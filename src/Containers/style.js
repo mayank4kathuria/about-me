@@ -106,11 +106,38 @@ export const AboutMeSection = styled.div`
     .tweet-picture{
         flex: 1;
         background-color: brown;
+        
     }
 
     .information-container{
         flex: 4;
         padding: 5px 10px;
+        
+        .tweet-account-info {
+            margin-bottom: 4px;
+            font-size: 15px;
+            font-weight: 400;
+            cursor: pointer;
+            
+            .name{
+                font-family: system-ui;
+                color: #fff;
+                text-decoration: none;
+                font-weight: 700;
+                line-height: 19px;
+            }
+
+            .name:hover, .date:hover {
+                text-decoration: underline;
+            }
+            
+            .u-name, .date {
+                margin-left: 5px;
+                color: #8899a6;
+                
+            }
+        }
+
     }
 `;
 

@@ -29,8 +29,20 @@ const LandingPage = (props) => {
                                     <span className='u-name'>@mayank2coolz</span>
                                     <span className='date'>Oct 2, 20</span>
                                 </div>
-                                <span>About me section</span>
-                                <span>{"I <3 "}</span>
+                                <div className='tweet-content'>
+                                    <span>About me section which will get the whole information and achievement 
+                                        for my journey
+
+                                    </span>
+                                    {/* <span>{"I <3 "}</span> */}
+                                </div>
+                                <div className='interactive-icons' >
+                                    <div className='icons'>
+                                        <span className='icon' >1</span>
+                                        <span className='icon' >2</span>
+                                        <span className='icon' >3</span>
+                                    </div>
+                                </div>
                             </div>
                             <div className='tweet-analytics'></div>
                         </div>
